@@ -1,11 +1,45 @@
-# Sample Snack app
+🛠️ Task Manager App (Web3 Style)
+A simple and stylish task management mobile application built with React Native and Expo, featuring a Web3 / Crypto-inspired design.
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+📱 Features
+Add new tasks with:
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Title
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+Description
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+Date and Time
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+Location
+
+View and sort the task list
+
+Update task status: In Progress, Completed, Cancelled
+
+Delete tasks
+
+Data persistence using AsyncStorage
+
+Minimalistic and modern UI
+
+🚀 Technologies Used
+React Native
+
+Expo
+
+AsyncStorage for local storage
+
+📦 Installation
+bash
+Копировать
+Редактировать
+git clone https://github.com/your-username/TaskManagerApp.git
+cd TaskManagerApp
+npm install
+npx expo start
+🎨 Screenshots
+(Add screenshots here if needed)
+
+📜 License
+This project is for educational and portfolio purposes.
+
