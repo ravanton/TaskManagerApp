@@ -1,45 +1,55 @@
-🛠️ Task Manager App (Web3 Style)
-A simple and stylish task management mobile application built with React Native and Expo, featuring a Web3 / Crypto-inspired design.
+TaskManagerApp 📋🚀
+TaskManagerApp is a mobile application for task management, built with React Native, styled in a modern Web3 / Crypto / NFT theme.
 
-📱 Features
-Add new tasks with:
 
-Title
+✨ Main Features
+Add New Task:
 
-Description
+📌 Task Title
 
-Date and Time
+📝 Task Description
 
-Location
+📅 Date and Time of Execution
 
-View and sort the task list
+📍 Location (manual address input)
 
-Update task status: In Progress, Completed, Cancelled
+Task List View:
 
-Delete tasks
+📜 Sort tasks by date added or status
 
-Data persistence using AsyncStorage
+Manage Tasks:
 
-Minimalistic and modern UI
+🔄 Update status ("In Progress", "Completed", "Cancelled")
 
-🚀 Technologies Used
-React Native
+🔍 View task details
 
-Expo
+❌ Delete tasks
 
-AsyncStorage for local storage
+Local Storage:
 
-📦 Installation
-bash
-Копировать
-Редактировать
-git clone https://github.com/your-username/TaskManagerApp.git
-cd TaskManagerApp
+💾 Tasks are saved locally using AsyncStorage, ensuring data persistence
+
+🛠️ Tech Stack
+React Native (Expo)
+
+AsyncStorage for local data storage
+
+Modern UI with Web3/Crypto/NFT inspired design
+
+🚀 How to Run the Project
 npm install
 npx expo start
-🎨 Screenshots
-(Add screenshots here if needed)
+▶️ Open the app using Expo Go by scanning the QR code.
 
-📜 License
-This project is for educational and portfolio purposes.
+📂 Project Structure
+TaskManagerApp/
+├── components/    # UI components
+├── screens/       # Application screens
+├── storage/       # Local storage handling
+├── utils/         # Utility functions
+├── App.js         # Main app file
+├── package.json   # Project settings and dependencies
+└── README.md      # Project description
 
+👨‍💻 Author
+GitHub: ravanton
