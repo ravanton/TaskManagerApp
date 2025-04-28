@@ -1,47 +1,52 @@
-TaskManagerApp 📋🚀
-TaskManagerApp is a mobile application for task management, built with React Native, styled in a modern Web3 / Crypto / NFT theme.
+# TaskManagerApp 📋🚀
 
+**TaskManagerApp** is a mobile application for task management, built with **React Native**, styled in a modern **Web3 / Crypto / NFT** theme.
 
-✨ Main Features
-Add New Task:
+---
 
-📌 Task Title
+## ✨ Main Features
 
-📝 Task Description
+- **Add New Task**:
+  - 📌 Task Title
+  - 📝 Task Description
+  - 📅 Date and Time of Execution
+  - 📍 Location (manual address input)
 
-📅 Date and Time of Execution
+- **Task List View**:
+  - 📜 Sort tasks by date added or status
 
-📍 Location (manual address input)
+- **Manage Tasks**:
+  - 🔄 Update status ("In Progress", "Completed", "Cancelled")
+  - 🔍 View task details
+  - ❌ Delete tasks
 
-Task List View:
+- **Local Storage**:
+  - 💾 Tasks are saved locally using `AsyncStorage`, ensuring data persistence
 
-📜 Sort tasks by date added or status
+---
 
-Manage Tasks:
+## 🛠️ Tech Stack
 
-🔄 Update status ("In Progress", "Completed", "Cancelled")
+- **React Native** (Expo)
+- **AsyncStorage** for local data storage
+- Modern UI with **Web3/Crypto/NFT** inspired design
 
-🔍 View task details
+---
 
-❌ Delete tasks
+## 📱 Screenshots
 
-Local Storage:
+*(You can add screenshots here if needed!)*
 
-💾 Tasks are saved locally using AsyncStorage, ensuring data persistence
+---
 
-🛠️ Tech Stack
-React Native (Expo)
+## 🚀 How to Run the Project
 
-AsyncStorage for local data storage
-
-Modern UI with Web3/Crypto/NFT inspired design
-
-🚀 How to Run the Project
+```bash
 npm install
 npx expo start
-▶️ Open the app using Expo Go by scanning the QR code.
 
-📂 Project Structure
+
+**📂 Project Structure**
 TaskManagerApp/
 ├── components/    # UI components
 ├── screens/       # Application screens
