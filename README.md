@@ -46,7 +46,7 @@ npm install
 npx expo start
 
 
-**📂 Project Structure**
+##  📂 Project Structure**
 TaskManagerApp/
 ├── components/    # UI components
 ├── screens/       # Application screens
